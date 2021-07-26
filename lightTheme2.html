@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="lightTheme2.css">
+    <title>CODE PING</title>
+</head>
+
+<body>
+    <!-- NAVIGATION BAR -->
+    <nav class="navbar navbar-light " style="background-color: #e9ecef">
+        <a class="navbar-brand" href="#">
+            <img src="favicon.ico" width="30" height="30" class="d-inline-block align-top" alt="">
+            CodePing
+        </a>
+    </nav>
+
+    <!-- CONTAINER STARTS HERE -->
+    <section class="container">
+        <div class="jumbotron mt-5" >
+            <h2 class="display-4">CodePing Welcomes You!</h2>
+            <p class="lead">CodePing is a platform, where you code , share, discuss and find yourself a solution.</p>
+            <hr class="my-4">
+            <p>Here in this page, write your code in the Editor, fill the fields on the left giving information about
+                your code and the solution that you need.
+                Now share your code via link generated, whatsapp or hash.
+            </p>
+        </div>
+
+        <!-- INPUT GROUPS -->
+        <div class="row mt-5 d-flex justify-content-between">
+            <div class="col-md-4 col-12">
+                
+                <div class="list-group">
+                    <!-- LINK -->
+                    <div class="boxes">
+                        <label for="basic-url" class="ml-3 mt-3">Link</label>
+                        <div class="input-group mb-4 mx-3" >
+                            <input type="text" class="form-control" id="basic-url" aria-describedby="basic-addon3">
+                        </div>
+                    </div>
+                    <!-- TITLE -->
+                    <div class = "boxes">
+                        <label for="basic-url" class="ml-3 mt-1">Title</label>
+                        <div class="input-group mb-4 mx-3">
+                            <input type="text" class="form-control" placeholder="" aria-label="Username"
+                                aria-describedby="basic-addon1">
+                        </div>
+                    </div>
+                    <!-- TOKEN -->
+                    <div class = "boxes">
+                        <label for="basic-url" class="ml-3 mt-1">Token</label>
+                        <div class="input-group mb-4 mx-3">
+                            <input type="text" class="form-control" placeholder="" aria-label="Username"
+                            aria-describedby="basic-addon1">
+                        </div>
+                    </div>
+                    <!-- DISCRIPTION -->
+                    <div class = "boxes">
+                        <label for="basic-url" class="ml-3 mt-1">Discription</label>
+                        <div class="input-group mb-4 mx-3">
+                            <textarea class="form-control" aria-label="With textarea"></textarea>
+                        </div>
+                    </div>
+                    <!-- EXPIRATION TIME -->
+                    <div class = "boxes">
+                        <div class="input-group my-4 mx-3">
+                            <div class="input-group-prepend ">
+                                <label class="input-group-text ml-3 font" for="inputGroupSelect01">Expiration time</label>
+                            </div>
+                            <select class="custom-select" id="inputGroupSelect01">
+                                <option selected>Read once</option>
+                                <option value="1">1 hour</option>
+                                <option value="2">2 hour</option>
+                                <option value="3">4 hour</option>
+                                <option value="3">8 hour</option>
+                            </select>
+                        </div>
+                    </div>
+                    <!-- GENERATE BUTTON -->
+                    <div class="p-2">
+                        <button type="button" class="btn btn-primary">Generate</button>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="col-md-7 col-12 box ml-5"></div>
+        </div>
+    </section>
+
+    <!-- Just an image -->
+    <nav class="navbar navbar-light mt-5" style="background-color: #e9ecef;">
+        <a class="navbar-brand" href="#">
+            Copyright to CodePing since 2020
+        </a>
+    </nav>
+
+</body>
+
+</html>

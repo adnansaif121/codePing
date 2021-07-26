@@ -1,0 +1,30 @@
+body{
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+.list-group .boxes{
+    width: 500px;
+    height: 100px;
+    font-weight: 700;
+    background-color:#e9ecef;
+    transition: 1s;
+}
+
+.font{
+    font-weight: 700;
+}
+
+.boxes:hover{
+    background-color: #ffdb3a;
+    border-radius: 10px;
+}
+
+.yellow{
+    border-left: #ffdb3a 5px solid ;
+}
+
+#yello{
+    border:#ffdb3a 5px solid ;
+    border-top: #ffdb3a 2px solid;
+    border-right: #ffdb3a 2px solid;
+}

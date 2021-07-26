@@ -1,0 +1,23 @@
+body{
+    font-family: 'Josefin Sans', sans-serif;
+    background-image: url(img8.jpg);
+    background-size: cover;
+}
+
+.list-group .boxes{
+    width: 500px;
+    height: 100px;
+    font-weight: 700;
+    background-color:#e9ecef;
+    
+    transition: 1s;
+}
+
+.font{
+    font-weight: 700;
+}
+
+.boxes:hover{
+    background-color: #ffdb3a;
+    border-radius: 10px;
+}
